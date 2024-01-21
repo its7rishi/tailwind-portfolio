@@ -2,8 +2,8 @@ import { TypeAnimation } from "react-type-animation";
 const Hero = ({ theme }) => {
   const bgURL =
     theme === "dark"
-      ? "src/assets/images/hero-pic-dark.jpg"
-      : "src/assets/images/hero-pic-light.jpg";
+      ? "/assets/images/hero-pic-dark.jpg"
+      : "/assets/images/hero-pic-light.jpg";
 
   return (
     <div id="home" className="hero lg:h-[450px] bg-base-100 overflow-hidden">
