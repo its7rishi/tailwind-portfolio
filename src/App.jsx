@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 const initialTheme = localStorage.getItem("theme");
 
 function App() {
-  const [theme, setTheme] = useState(initialTheme);
+  const [theme, setTheme] = useState(initialTheme || "dark");
 
   const handleToggleMode = () => {
     setTheme((prevTheme) => (prevTheme === "dark" ? "light" : "dark"));
