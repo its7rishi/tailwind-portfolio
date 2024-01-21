@@ -13,22 +13,16 @@ const Footer = () => {
         <header className="footer-title">Social</header>
         <div className="grid grid-flow-col gap-4">
           <a href="#" className="grid-col-1 text-center cursor-pointer">
-            <img src="/src/assets/icons/linkedin.svg" alt="linkedin-icon" />
+            <img src="/assets/icons/linkedin.svg" alt="linkedin-icon" />
           </a>
           <a href="#" className="grid-col-1 text-center cursor-pointer">
-            <img src="/src/assets/icons/github-icon.svg" alt="github-icon" />
+            <img src="/assets/icons/github-icon.svg" alt="github-icon" />
           </a>
           <a href="#" className="grid-col-1 text-center cursor-pointer">
-            <img
-              src="/src/assets/icons/twitterx-icon.svg"
-              alt="twitterx-icon"
-            />
+            <img src="/assets/icons/twitterx-icon.svg" alt="twitterx-icon" />
           </a>
           <a href="#" className="grid-col-1 text-center cursor-pointer">
-            <img
-              src="/src/assets/icons/instagram-icon.svg"
-              alt="instagram-icon"
-            />
+            <img src="/assets/icons/instagram-icon.svg" alt="instagram-icon" />
           </a>
         </div>
       </nav>
