@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="mt-12 footer p-10 bg-neutral text-neutral-content">
       <aside>
-        <img src="/src/assets/icons/sm-icon.png" alt="icon" />
+        <img src="/assets/icons/sm-icon.png" alt="icon" />
         <p>
           Saptarshi Majumdar
           <br />
