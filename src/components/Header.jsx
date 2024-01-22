@@ -46,11 +46,6 @@ const Header = ({ handleToggleMode }) => {
                   BLOGS
                 </a>
               </li>
-              <li>
-                <a className="hover:font-bold" href="#contact-me">
-                  CONTACT ME
-                </a>
-              </li>
             </ul>
           </div>
           <a className="btn btn-ghost text-xl">Saptarshi M</a>
